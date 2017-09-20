@@ -61,7 +61,8 @@ class Backpack
         @items << 'packed lunch'
      end
    end
-  # Prints a summary packing list for Melinda's backpack
+
+  # Prints packing_list
   def packing_list
     output = []
     output << "Melinda, here's your packing list!"
